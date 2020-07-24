@@ -2,5 +2,15 @@
   "name": "Reddit Code Highlighter",
   "version": "1.0",
   "description": "Got tired of reading code on Reddit in plain text?",
+  "content_scripts": [
+    {
+      "matches": ["https://*.reddit.com/*"],
+      "css": ["./src/index.css"],
+      "js": ["./src/index.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
   "manifest_version": 2
 }
