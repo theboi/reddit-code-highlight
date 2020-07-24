@@ -1,0 +1,15 @@
+.rch-ext-method {
+  color: red !important;
+}
+
+.rch-ext-comment {
+  color: green !important;
+}
+
+.rch-ext-type {
+  color: blue !important;
+}
+
+.rch-ext-keyword {
+  color: lightblue !important;
+}
