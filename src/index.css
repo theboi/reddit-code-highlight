@@ -1,15 +1,27 @@
-.rch-ext-method {
+.rch-ext-fuk {
   color: red !important;
 }
 
-.rch-ext-comment {
-  color: green !important;
-}
-
-.rch-ext-type {
-  color: blue !important;
-}
-
-.rch-ext-keyword {
+.rch-ext-vak {
   color: lightblue !important;
+}
+
+.rch-ext-ty {
+  color: rgb(149, 149, 255) !important;
+}
+
+.rch-ext-me {
+  color: rgb(255, 247, 157) !important;
+}
+
+.rch-ext-ie {
+  color: rgb(196, 138, 255) !important;
+}
+
+.rch-ext-cm {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.rch-ext-st {
+  color: rgb(249, 89, 89);
 }
