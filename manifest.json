@@ -5,12 +5,11 @@
   "content_scripts": [
     {
       "matches": ["https://*.reddit.com/*"],
-      "css": ["./src/index.css"],
-      "js": ["./src/index.js"]
+      "css": ["/src/index.css"],
+      "js": ["/src/content.js"]
     }
   ],
-  "permissions": [
-    "activeTab"
-  ],
+  "web_accessible_resources": ["/src/index.js", "/node_modules/highlight.js/lib/core.js"],
+  "permissions": ["activeTab"],
   "manifest_version": 2
 }

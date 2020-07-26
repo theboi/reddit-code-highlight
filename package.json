@@ -1,0 +1,24 @@
+{
+  "name": "reddit-code-highlight",
+  "version": "1.0.0",
+  "description": "Tired of reading code on Reddit in plain text?",
+  "main": "index.js",
+  "dependencies": {
+    "highlight.js": "^10.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theboi/reddit-code-highlight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theboi/reddit-code-highlight/issues"
+  },
+  "homepage": "https://github.com/theboi/reddit-code-highlight#readme"
+}
