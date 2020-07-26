@@ -1,5 +1,6 @@
+'use strict';
+
 import hljs from '/node_modules/highlight.js/lib/core.js';
-// import '/highlight.js/styles/github.css';
 
 // Wait for Reddit to finish loading before changing styles
 setTimeout(() => {
