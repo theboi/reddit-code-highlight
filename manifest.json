@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.reddit.com/*"],
-      "js": ["./src/scripts/content.js"]
+      "js": ["./src/content.js"]
     }
   ],
   "icons": {
@@ -13,7 +13,7 @@
     "48": "./src/assets/manifest/icon48.png",
     "128": "./src/assets/manifest/icon128.png"
   },
-  "web_accessible_resources": ["/src/scripts/index.js", "/dist/main.js"],
+  "web_accessible_resources": ["/src/index.js", "/dist/main.js"],
   "options_page": "/options/options.html",
   "permissions": ["activeTab", "storage"],
   "manifest_version": 2
