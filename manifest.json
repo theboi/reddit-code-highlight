@@ -5,10 +5,14 @@
   "content_scripts": [
     {
       "matches": ["https://*.reddit.com/*"],
-      "css": ["./src/scripts/index.css"],
       "js": ["./src/scripts/content.js"]
     }
   ],
+  "icons": {
+    "16": "./src/assets/manifest/icon16.png",
+    "48": "./src/assets/manifest/icon48.png",
+    "128": "./src/assets/manifest/icon128.png"
+  },
   "web_accessible_resources": ["/src/scripts/index.js", "/dist/main.js"],
   "options_page": "/options/options.html",
   "permissions": ["activeTab", "storage"],
