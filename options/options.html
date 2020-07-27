@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Test Extension Options</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./options.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h2>reddit-code-highlight</h2>
+      <h3>Styles</h3>
+      <label for="light-style">Light</label>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          id="light-style"
+          placeholder="default"
+          class="options form-control"
+          aria-label="Light style"
+          aria-describedby="basic-addon2"
+        />
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">.css</span>
+        </div>
+      </div>
+      <label for="dark-style">Dark</label>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          id="dark-style"
+          placeholder="dark"
+          class="options form-control"
+          aria-label="Dark style"
+          aria-describedby="basic-addon2"
+        />
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">.css</span>
+        </div>
+      </div>
+      <p>
+        Styles can be found at
+        <a
+          target="_blank"
+          href="https://github.com/highlightjs/highlight.js/tree/master/src/styles"
+          >highlight.js GitHub source</a
+        >. Example input: "github"
+      </p>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>

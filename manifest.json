@@ -9,7 +9,8 @@
       "js": ["./src/content.js"]
     }
   ],
-  "web_accessible_resources": ["/src/index.js", "/dist/main.js", "/node_modules/highlight.js/lib/core.js"],
-  "permissions": ["activeTab"],
+  "web_accessible_resources": ["/src/index.js", "/dist/main.js"],
+  "options_page": "/options/options.html",
+  "permissions": ["activeTab", "storage"],
   "manifest_version": 2
 }
