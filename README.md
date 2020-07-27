@@ -1,4 +1,4 @@
-![reddit-code-highlight Icon](./src/assets/icon.png)
+<img src="./src/assets/icon.png" alt="reddit-code-highlight Icon" width="100" height="100"/>
 
 # reddit-code-highlight
 
@@ -13,9 +13,15 @@ A Google Chrome extension (Sorry Safari) to highlight code found on reddit.com.
 
 ## Installation
 
-- Download this repo from GitHub.
-- Go to  
-- Why? Because I am too broke to pay Google $5 to put this on the Chrome Web Store (sorry :sweat: :sob:).
+- Download this repository from GitHub at https://github.com/theboi/reddit-code-highlight.
+- Go to `chrome://extensions/` (Paste in URL search bar).
+- Toggle `Developer mode` on (top right corner).
+- Click `Load Unpacked` and locate the the repository you just downloaded.
+- Why? Because I am too broke to pay Google for a Chrome Web Store developer account (sorry :sweat::sob:).
+
+## Customisation
+
+- At `chrome://extensions/`, under this extension, click `Details` > `Extension options`.
 
 ## Resources
 
