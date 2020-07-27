@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Test Extension Options</title>
+    <title>reddit-code-highlight Options</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -14,8 +14,15 @@
   </head>
   <body>
     <div class="main">
+      <img
+        src="../src/assets/icon.png"
+        alt="reddit-code-highlight Icon"
+        class="icon"
+        width="100"
+      />
       <h2>reddit-code-highlight</h2>
-      <h3>Styles</h3>
+      <hr />
+      <h4>Styles</h4>
       <label for="light-style">Light</label>
       <div class="input-group mb-3">
         <input
@@ -45,12 +52,23 @@
         </div>
       </div>
       <p>
-        Styles can be found at
+        The list of styles can be found at
         <a
           target="_blank"
           href="https://github.com/highlightjs/highlight.js/tree/master/src/styles"
           >highlight.js GitHub source</a
-        >. Example input: "github"
+        >. Example inputs: <code>xcode</code>, <code>github</code>
+      </p>
+
+      <p class="credits">
+        Made with ♥ by
+        <a href="https://www.ryanthe.com" target="_blank">Ryan The</a>, 2020
+        <br />Open sourced on
+        <a
+          href="https://github.com/theboi/reddit-code-highlight"
+          target="_blank"
+          >GitHub</a
+        >.
       </p>
     </div>
     <script src="options.js"></script>

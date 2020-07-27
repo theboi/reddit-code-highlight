@@ -9,6 +9,21 @@ MOBILE
   margin: auto;
 }
 
+.icon {
+  margin: 20px auto;
+  display: block;
+}
+
+.credits {
+  margin-top: 70px;
+  color: var(--gray);
+  text-align: center;
+  font-size: 13px;
+}
+
+h4 {
+  margin-bottom: 15px;
+}
 /* /////////////////////////////////////////////////////////////////////////////
 DESKTOP
 //////////////////////////////////////////////////////////////////////////////*/
