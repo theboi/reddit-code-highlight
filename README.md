@@ -1,3 +1,5 @@
+![reddit-code-highlight Icon](./src/assets/icon.png)
+
 # reddit-code-highlight
 
 Tired of reading code on Reddit in plain text?
@@ -8,6 +10,12 @@ Tired of reading code on Reddit in plain text?
 ## About
 
 A Google Chrome extension (Sorry Safari) to highlight code found on reddit.com.
+
+## Installation
+
+- Download this repo from GitHub.
+- Go to  
+- Why? Because I am too broke to pay Google $5 to put this on the Chrome Web Store (sorry :sweat: :sob:).
 
 ## Resources
 

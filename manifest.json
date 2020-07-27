@@ -2,17 +2,17 @@
   "name": "Reddit Code Highlighter",
   "version": "1.0",
   "description": "Tired of reading code on Reddit in plain text?",
+  "icons": {
+    "16": "./src/assets/manifest/icon16.png",
+    "48": "./src/assets/manifest/icon48.png",
+    "128": "./src/assets/manifest/icon128.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://*.reddit.com/*"],
       "js": ["./src/content.js"]
     }
   ],
-  "icons": {
-    "16": "./src/assets/manifest/icon16.png",
-    "48": "./src/assets/manifest/icon48.png",
-    "128": "./src/assets/manifest/icon128.png"
-  },
   "web_accessible_resources": ["/src/index.js", "/dist/main.js"],
   "options_page": "/options/options.html",
   "permissions": ["activeTab", "storage"],
