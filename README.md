@@ -14,7 +14,9 @@ A Google Chrome extension (Sorry Safari) to highlight code found on reddit.com, 
 ## Installation
 
 - Download this repository from GitHub at https://github.com/theboi/reddit-code-highlight.
-- Go to `chrome://extensions/` (Paste in URL search bar).
+- Via the command line, navigate to the repository you just downloaded (using `cd`).
+- Run `npm i; npx webpack`.
+- Go to `chrome://extensions/`.
 - Toggle `Developer mode` on (top right corner).
 - Click `Load Unpacked` and locate the the repository you just downloaded.
 - Why? Because I am too broke to pay Google for a Chrome Web Store developer account (sorry :sweat::sob:).
