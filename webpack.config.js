@@ -10,7 +10,8 @@ module.exports = {
       {
         test: /\.js$/, exclude: /node_modules/, use: {
           loader: "babel-loader", options: {
-            plugins: ['@babel/plugin-syntax-dynamic-import']
+            presets: ["@babel/preset-env"],
+            plugins: ["dynamic-import-node"]
           }
         }
       }
