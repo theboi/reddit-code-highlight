@@ -15,6 +15,7 @@ try {
       window.sessionStorage.setItem(option, result[option])
     }
   })
+  window.sessionStorage.setItem('extUrl', chrome.extension.getURL('/node_modules/highlight.js/styles'))
 } catch (e) {
   console.error("ERROR: ", e)
 }
