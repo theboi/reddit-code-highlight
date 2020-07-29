@@ -8,6 +8,12 @@ setTimeout(() => {
   for (const element of document.querySelectorAll("pre code")) {
     hljs.highlightBlock(element)
   }
+  window.addEventListener('popstate', () => {
+    console.log("change");
+    for (const element of document.querySelectorAll("pre code")) {
+      hljs.highlightBlock(element)
+    }
+  })
   const mainDiv = document.querySelector('body div div')
   const color = window.getComputedStyle(mainDiv).getPropertyValue('--background')
   isDarkMode = isDark(color)
@@ -20,13 +26,12 @@ setTimeout(() => {
 }, 2000)
 
 const isDark = (color) => {
-  // Yeeted off the internet from https://awik.io/determine-color-bright-dark-using-javascript/
+  // From https://awik.io/determine-color-bright-dark-using-javascript/
   let r, g, b, hsp;
   const threshold = 127.5
 
   // Check the format of the color, HEX or RGB?
   if (color.match(/^rgb/)) {
-
     // If RGB --> store the red, green, blue values in separate variables
     color = color.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+(?:\.\d+)?))?\)$/);
 
