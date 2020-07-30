@@ -9,7 +9,7 @@ Tired of reading code on Reddit in plain text?
 
 ## About
 
-A Google Chrome extension (Sorry Safari) to highlight code found on reddit.com, using [highlight.js](https://highlightjs.org/).
+A Google Chrome extension (Sorry Safari) to highlight code found on reddit.com, using [highlight.js](https://highlightjs.org/). Change highlighter style in the options page via `chrome://extensions/`.
 
 ## Installation
 
@@ -26,9 +26,9 @@ A Google Chrome extension (Sorry Safari) to highlight code found on reddit.com, 
 - At `chrome://extensions/`, under this extension, click `Details` > `Extension options`.
 
 ## Development Resources
-If you would like to remake/understand this simple project
 
-Using modules in chrome content script: https://stackoverflow.com/questions/48104433/how-to-import-es6-modules-in-content-script-for-chrome-extension/48121629#48121629
+If you are wondering how to use npm modules (or even any modules for that matter) in Chrome Extensions:
+- Using modules in Chrome extensions content script: https://stackoverflow.com/questions/48104433/how-to-import-es6-modules-in-content-script-for-chrome-extension/48121629#48121629
 
 ## License
 
