@@ -11,14 +11,10 @@
     "@babel/preset-env": "^7.10.4",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.1.0",
-    "babel-plugin-dynamic-import-node": "^2.3.3",
     "css-loader": "^4.0.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.0",
     "webpack-cli": "^3.3.12"
-  },
-  "scripts": {
-    "wp": "npx webpack"
   },
   "repository": {
     "type": "git",
