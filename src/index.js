@@ -4,16 +4,23 @@ const OPTIONS_AVAILABLE = ["light-style", "dark-style"]
 const DEFAULT_STYLE = ["default", "dark"]
 let isDarkMode = false;
 
+var pushState = history.pushState;
+history.pushState = function () {
+  pushState.apply(history, arguments);
+  setTimeout(() => {
+    for (const element of document.querySelectorAll("pre code")) {
+      hljs.highlightBlock(element)
+    }
+    console.log("called2")
+  }, 2000);
+};
+
 setTimeout(() => {
   for (const element of document.querySelectorAll("pre code")) {
     hljs.highlightBlock(element)
   }
-  window.addEventListener('popstate', () => {
-    console.log("change");
-    for (const element of document.querySelectorAll("pre code")) {
-      hljs.highlightBlock(element)
-    }
-  })
+  console.log("called1")
+
   const mainDiv = document.querySelector('body div div')
   const color = window.getComputedStyle(mainDiv).getPropertyValue('--background')
   isDarkMode = isDark(color)
