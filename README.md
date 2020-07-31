@@ -6,6 +6,9 @@ Tired of reading code on Reddit in plain text?
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+![Working Example](../reddit-code-highlight/example.png)
+
+Adapted from a random Reddit page: https://www.reddit.com/r/redesign/comments/blsxsu/add_syntax_highlighting_to_reddit_markdown_code/
 
 ## About
 
