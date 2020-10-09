@@ -8,7 +8,7 @@ Tired of reading code on Reddit in plain text?
 
 ![Working Example](./example.png)
 
-Adapted from a random Reddit page: https://www.reddit.com/r/redesign/comments/blsxsu/add_syntax_highlighting_to_reddit_markdown_code/
+Image taken from a random Reddit page: https://www.reddit.com/r/redesign/comments/blsxsu/add_syntax_highlighting_to_reddit_markdown_code/.
 
 ## About
 
