@@ -1,7 +1,6 @@
 {
   "name": "Reddit Code Highlighter",
   "version": "1.0",
-  "default_locale": "en",
   "description": "Tired of reading code on Reddit in plain text?",
   "icons": {
     "16": "./src/assets/manifest/icon16.png",
