@@ -28,6 +28,10 @@ A Google Chrome extension (Sorry Safari) to highlight code found on reddit.com, 
 
 - At `chrome://extensions/`, under this extension, click `Details` > `Extension options`.
 
+## Motivation
+
+I began using Reddit the other day and wanted to help a fellow Redditor solve his issue with code. However, he posted a huge chunk of plain text code which was slightly frustrating. Upon scouring the web, I figured out that code highlighting did not exist on Reddit natively. I also wanted to learn how I could use webpack and create web extensions. Thus, reddit-code-highlighter was born.
+
 ## Development Resources
 
 If you are wondering how to use npm modules (or even any modules for that matter) in Chrome Extensions:
